@@ -88,7 +88,7 @@ DATABASES = {
         'PORT':os.getenv("DB_PORT"),
         "OPTIONS":{
             "ssl":{
-                "ca":os.getenv("PEM_CONT"),
+                "ca":os.getenv("PEM_CON"),
             },
             'charset':'utf8mb4',
             'init_command': "SET SQL_MODE='STRICT_TRANS_TABLES' "
