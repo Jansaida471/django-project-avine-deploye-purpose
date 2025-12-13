@@ -1,0 +1,1 @@
+# django-project-avine-deploye-purpose
